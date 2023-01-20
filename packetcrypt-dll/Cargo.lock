@@ -95,9 +95,9 @@ dependencies = [
 
 [[package]]
 name = "bumpalo"
-version = "3.8.0"
+version = "3.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f1e260c3a9040a7c19a12468758f4c16f31a81a1fe087482be9570ec864bb6c"
+checksum = "0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535"
 
 [[package]]
 name = "bytes"
@@ -513,8 +513,8 @@ checksum = "fbe5e23404da5b4f555ef85ebed98fb4083e55a00c317800bc2a50ede9f3d219"
 
 [[package]]
 name = "libsodium-sys"
-version = "0.2.6"
-source = "git+https://github.com/cjdelisle/sodiumoxide?rev=76dc0e6e587b8c8a4bb193ebba9f8ae8f090b81b#76dc0e6e587b8c8a4bb193ebba9f8ae8f090b81b"
+version = "0.2.7"
+source = "git+https://github.com/pkteer/sodiumoxide?rev=bb8042fc25f458147bbf74de78cf69dcd8d481aa#bb8042fc25f458147bbf74de78cf69dcd8d481aa"
 dependencies = [
  "cc",
  "libc",
@@ -1081,8 +1081,8 @@ dependencies = [
 
 [[package]]
 name = "sodiumoxide"
-version = "0.2.6"
-source = "git+https://github.com/cjdelisle/sodiumoxide?rev=76dc0e6e587b8c8a4bb193ebba9f8ae8f090b81b#76dc0e6e587b8c8a4bb193ebba9f8ae8f090b81b"
+version = "0.2.7"
+source = "git+https://github.com/pkteer/sodiumoxide?rev=bb8042fc25f458147bbf74de78cf69dcd8d481aa#bb8042fc25f458147bbf74de78cf69dcd8d481aa"
 dependencies = [
  "ed25519",
  "libc",
